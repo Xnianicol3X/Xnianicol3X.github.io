@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+#trial1 {
+    color: rgb(42, 236, 42);
+    font-size: 20px;
+}
+
+span.pink {
+    color: #ff69b4;
+}
+
+#trial3 span.red {
+    color: red;
+}   
+
+#trial3 span.gold {
+    color: goldenrod
+
+}
+
+#trial3 span.blue {
+    color: blue;
+}
+
+.trial4 {
+    background-color: skyblue;
+}
+.yellow{
+    background-color: yellow;
+
+}
+.bold{
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.fake-heading {
+    font-size: 30px;
+}
+.eyebrow {
+    font-size: 12px;
+    text-transform: bold;
+}
+.heading {
+    font-size: 48px;
+}
+.subheading {
+    font-size: 24px;
+    font-style: italic;
+}
