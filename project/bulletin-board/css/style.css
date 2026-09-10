@@ -1,0 +1,41 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it{
+    background-color: aqua;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+}
+
+.post-it-one{
+    background-color:  pink;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    font-family: cursive;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+}
+
+.post-it-two{
+    background-color:  rgb(249, 249, 155);
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    font-family: cursive;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+}
+
