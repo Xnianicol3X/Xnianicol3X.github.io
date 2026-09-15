@@ -8,12 +8,13 @@ body {
 }
 /* flexbox container */
 #navbar {
-    background-color: pink;
+    background-color: rgb(93, 44, 52);
     display: flex;
-    justify-content: flex-start;
-
+    justify-content: space-evenly;
 }
+
 /* flexbox item */
+
 #navbar a {
     text-decoration: none;
     color: white;
