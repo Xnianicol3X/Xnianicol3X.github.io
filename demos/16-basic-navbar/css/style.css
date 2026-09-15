@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* flexbox container */
+#navbar {
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+
+}
+/* flexbox item */
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
