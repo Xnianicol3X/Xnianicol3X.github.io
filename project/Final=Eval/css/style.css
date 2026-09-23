@@ -5,16 +5,49 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: lab(95.7% -14.34 14.06)
+    ;
 }
 
 .flyer {
     text-align: center;
     width: 600px;
     margin: 0 auto;
+    background-color: #2d8347;color: white;
 }
 
-.cowboys {
-    text-align: left;
-    width: 600px;
-    margin: 0 auto;
-} 
+
+
+.Dallas {
+    width: 90%;
+    height: auto;
+    align-items: left;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.questions {
+    text-align: center;
+
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.rsvp-buttons {
+    text-align: center;
+    background-color: #2d8347; color: aliceblue;
+    border-radius: 40;
+
+}
+.rsvp-button2{
+    text-align: center;
+    background-color: #2d8347;
+}

@@ -8,9 +8,61 @@ body {
 }
 
 #layout {
+    display: flex;
     max-width: 1200px;
     margin: 48px auto;
 
     background-color: #efefef;
     min-height: 100vh;
+    align-items: flex-start;
+}
+
+#thumbnail-colum{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#thumbnail-colum-2 {
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#featured-image-colum {
+    width: 575px;
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+
+}
+#featured-image-colum img{
+    width: 540px;
+    height: 540px;
+    object-fit: contain;
+}
+
+#product-info-colum {
+    width: 350px;
+
+}
+
+#product-info-colum h1 {
+    font-size: 27px;
+    line-height: 1;
+    margin-top: 0;
+}
+
+#product-info-colum h2 {
+    font-size: 30px;
+
+}
+
+#product-info-colum a {
+    color: #222;
+    text-decoration: underline;
+
 }
