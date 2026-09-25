@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#hero {
+    min-height: 600px;
+    background-image: url(../images/urban-7yww4.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+}
+
+#gallery {
+    padding: 70px 40px;
+}
+
+.Grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Grid-gallery img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#card-selection {
+    background-color: #bbbb;
+    padding: 48px;
+
+}
+
+.card {
+    flex: 1;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #bbbb;
+}
+
+.card h3 {
+    font-size: 28px;
+}
+
+@media (max-width:700px){
+    #nav{
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    #nav a {
+        font-size: 14px;
+
+    }
+
+    #hero {
+        min-height: 450px;
+    }
+
+    .hero-content {
+        font-size: 40px;
+    }
+
+    #gallery {
+        padding: 40px 20px;
+    }
+
+    .basic-grid-gallery img {
+        height: 300px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .card {padding: 30px 20px;
+
+    }
+}
